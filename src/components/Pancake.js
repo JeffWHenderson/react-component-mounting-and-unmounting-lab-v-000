@@ -25,7 +25,7 @@ class Pancake extends React.Component {
     this.interval = setInterval(this.updateCounter, 1000);
   }
 
-  componentWillUnmount {
+  componentWillUnmount() {
     clearInterval(this.interval);
   }
 
